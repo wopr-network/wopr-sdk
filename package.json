@@ -25,14 +25,17 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "openai": "^4.80.0",
     "zod": "^3.24.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "^22.0.0",
+    "openai": "^4.80.0",
     "typescript": "^5.7.3",
     "vitest": "^2.1.8"
+  },
+  "peerDependencies": {
+    "openai": "^4.80.0"
   },
   "publishConfig": {
     "access": "public"
