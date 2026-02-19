@@ -55,5 +55,8 @@
     "openai",
     "api",
     "client"
-  ]
+  ],
+  "release": {
+    "extends": "@wopr-network/semantic-release-config"
+  }
 }
